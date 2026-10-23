@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marina Arruda | Portfólio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <nav class="navegacao">
+            <a href="#inicio" class="logo">marina<span>.</span></a>
+
+            <button id="botao-menu" aria-label="Abrir menu" aria-expanded="false">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <ul id="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><button id="botao-tema" aria-label="Alternar tema"><i class="bi bi-moon-stars"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-texto animar">
+                <p class="etiqueta">ESTUDANTE DE TECNOLOGIA</p>
+                <h1>Olá, eu sou<br><span>Marina Arruda.</span></h1>
+                <h2>Sou <span id="texto-digitado">Estudante de Desenvolvimento Full Stack</span></h2>
+                <p>Aprendendo a transformar ideias em experiências digitais através da programação.</p>
+
+                <div class="botoes">
+                    <a href="#projetos" class="botao">Ver meus projetos <i class="bi bi-arrow-up-right"></i></a>
+                    <a href="curriculo.pdf" download class="botao botao-secundario"><i class="bi bi-download"></i> Baixar meu CV</a>
+                </div>
+
+                <div class="redes">
+                    <a href="https://github.com/marina-arruda0" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="mailto:marina.arruda.velerio2@gmail.com" aria-label="E-mail"><i class="bi bi-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-visual animar">
+                <div class="cartao-codigo">
+                    <p>marina.js</p>
+                    <code>
+                        <span>const</span> marina = {<br>
+                        &nbsp;&nbsp;criatividade: true,<br>
+                        &nbsp;&nbsp;aprendizado: "contínuo",<br>
+                        &nbsp;&nbsp;objetivo: "Full Stack"<br>
+                        };<br><br>
+                        console.log("Olá, mundo!");
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="secao animar">
+            <p class="etiqueta">01 / SOBRE MIM</p>
+            <h2>Aprendendo hoje,<br><span>construindo o amanhã.</span></h2>
+            <p>Sou estudante do 1º ano do Ensino Médio Técnico em Informática para Internet pela SESC Escola, em parceria com o SENAC. Comecei minha jornada na programação pelo desenvolvimento Front-end e quero continuar aprendendo Back-end e desenvolvimento Mobile.</p>
+            <p>Meu objetivo é construir uma base sólida para me tornar uma desenvolvedora Full Stack.</p>
+        </section>
+
+        <section id="habilidades" class="secao secao-alternada">
+            <p class="etiqueta">02 / HABILIDADES</p>
+            <h2>O que estou aprendendo</h2>
+
+            <div class="grade-habilidades">
+                <article class="cartao animar"><i class="bi bi-filetype-html"></i><h3>HTML5</h3><p>Estrutura de páginas web.</p></article>
+                <article class="cartao animar"><i class="bi bi-filetype-css"></i><h3>CSS3</h3><p>Estilos e responsividade.</p></article>
+                <article class="cartao animar"><i class="bi bi-filetype-js"></i><h3>JavaScript</h3><p>Interatividade nas páginas.</p></article>
+                <article class="cartao animar"><i class="bi bi-diagram-3"></i><h3>Lógica</h3><p>Algoritmos e resolução de problemas.</p></article>
+                <article class="cartao animar"><i class="bi bi-git"></i><h3>Git</h3><p>Controle de versões.</p></article>
+                <article class="cartao animar"><i class="bi bi-github"></i><h3>GitHub</h3><p>Projetos e repositórios.</p></article>
+            </div>
+        </section>
+
+        <section id="projetos" class="secao">
+            <p class="etiqueta">03 / MEUS PROJETOS</p>
+            <h2>Projetos em destaque</h2>
+
+            <div class="grade-projetos">
+                <article class="projeto cartao animar">
+                    <i class="bi bi-music-note-beamed icone-projeto"></i>
+                    <h3>Compasso Musical</h3>
+                    <p>Site para auxiliar iniciantes no universo da música.</p>
+                    <div class="tecnologias"><span>HTML</span><span>CSS</span></div>
+                    <a href="https://marina-arruda0.github.io/compasso-musical/" target="_blank" rel="noopener noreferrer">Visitar site <i class="bi bi-arrow-up-right"></i></a>
+                    <a href="https://github.com/marina-arruda0/compasso-musical" target="_blank" rel="noopener noreferrer">Ver código <i class="bi bi-github"></i></a>
+                </article>
+
+                <article class="projeto cartao animar">
+                    <i class="bi bi-robot icone-projeto"></i>
+                    <h3>RoboMaker</h3>
+                    <p>Site introdutório para pessoas interessadas em tecnologia.</p>
+                    <div class="tecnologias"><span>HTML</span><span>CSS</span></div>
+                    <a href="https://marina-arruda0.github.io/projeto-robomaker-/" target="_blank" rel="noopener noreferrer">Visitar site <i class="bi bi-arrow-up-right"></i></a>
+                    <a href="https://github.com/marina-arruda0/projeto-robomaker-" target="_blank" rel="noopener noreferrer">Ver código <i class="bi bi-github"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <section id="estudos" class="secao secao-alternada">
+            <p class="etiqueta">04 / MEUS ESTUDOS</p>
+            <h2>Repositórios de aprendizado</h2>
+            <div class="lista-estudos">
+                <a href="https://github.com/marina-arruda0/html" target="_blank" rel="noopener noreferrer">HTML e CSS <i class="bi bi-arrow-up-right"></i></a>
+                <a href="https://github.com/marina-arruda0/javascript" target="_blank" rel="noopener noreferrer">JavaScript Vanilla <i class="bi bi-arrow-up-right"></i></a>
+                <a href="https://github.com/marina-arruda0/algoritmos" target="_blank" rel="noopener noreferrer">Lógica e algoritmos em Portugol <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+        </section>
+
+        <section id="contato" class="secao contato animar">
+            <p class="etiqueta">
+<!-- Botão de contato pelo WhatsApp -->
+<a
+    href="https://wa.me/5565981622208"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Entrar em contato pelo WhatsApp"
+>
+    <i class="bi bi-whatsapp"></i>
+    WhatsApp
+</a>
+ / CONTATO</p>
+            <h2>Vamos conversar?</h2>
+            <p>Quer falar comigo sobre tecnologia, projetos ou aprendizado?</p>
+<a
+    class="botao"
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=marina.arruda.valerio2@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    Enviar um e-mail
+    <i class="bi bi-envelope"></i>
+</a>
+
+            <p class="contato-extra">
+                <a href="https://github.com/marina-arruda0" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <!-- Substitua # pelo seu perfil do LinkedIn. -->
+                <a href="#" class="link-pendente">LinkedIn</a>
+                <!-- Adicione seu link do WhatsApp ou Instagram, se desejar. -->
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido com <i class="bi bi-heart-fill"></i> por Marina Arruda</p>
+        <p>© <span id="ano-atual"></span> Marina Arruda</p>
+    </footer>
+
+    <button id="voltar-topo" aria-label="Voltar ao topo"><i class="bi bi-arrow-up"></i></button>
+</body>
+</html>
